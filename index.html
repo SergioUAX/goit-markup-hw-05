@@ -536,18 +536,23 @@
         </div>
         <div class="footer-subscribe">
           <p class="footer-subtitle">Subscribe</p>
-          <div class="footer-subscribe-line">
-            <input
-              type="email"
-              class="footer-input"
-              name="footer-email"
-              id="footer-email"
-              placeholder="E-mail"
-            />
+          <form class="footer-subscribe-line">
+            <label class="footer-input-email-label">
+              <input
+                type="email"
+                class="footer-input"
+                name="footer-email"
+                id="footer-email"
+                placeholder="E-mail"
+              />
+            </label>
             <button type="submit" class="footer-button-subscribe">
-              Subscribe
+              <p>Subscribe</p>
+              <svg class="footer-button-subscribe-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-sent"></use>
+              </svg>
             </button>
-          </div>
+          </form>
         </div>
       </div>
     </footer>
